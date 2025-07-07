@@ -1,0 +1,1 @@
+export { default } from "/Users/matteobenelle/Documents/GitHub/DemoMedical/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";

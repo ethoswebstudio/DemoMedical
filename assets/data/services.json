@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "viso",
+    "title": "Trattamenti Viso",
+    "heroImg": "/img/services/viso-hero.png",
+    "heroSubtitle": "Rigenera la tua pelle e riscopri la luminosità",
+    "introTitle": "La bellezza del volto",
+    "intro": "Ogni trattamento viso è studiato per…"
+  },
+  {
+    "slug": "corpo",
+    "title": "Trattamenti Corpo",
+    "heroImg": "/img/services/corpo-hero.png",
+    "heroSubtitle": "Ridefinisci forme e tonicità",
+    "introTitle": "Modella e perfeziona",
+    "intro": "Drenante, tonificante, rimodellante…"
+  },
+  {
+    "slug": "nutrizione",
+    "title": "Nutrizione & Benessere",
+    "heroImg": "/img/services/nutrizione-hero.png",
+    "heroSubtitle": "Benessere che parte dall’interno",
+    "introTitle": "Piani personalizzati",
+    "intro": "Dietisti e nutrizionisti certificati…"
+  }
+]

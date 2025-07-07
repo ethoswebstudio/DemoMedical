@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --nav-color: #ffffff;
+}
+
+/* fallback bianco */
+
+/* assets/css/main.css – tail end */
+@layer utilities {
+  .padding-px {
+    @apply px-4 sm:px-8 lg:px-16 xl:px-48;
+  }
+  .padding-py {
+    @apply py-12 sm:py-16 lg:py-24 xl:py-20;
+  }
+  .padding-landing {
+    @apply pt-40 pb-40 sm:pt-48 sm:pb-48 lg:pt-52 lg:pb-52 xl:pt-40 xl:pb-20;
+  }
+}
+
+.text-megat {
+  /* @apply font-['Poppins'] text-[48px] font-bold leading-[72px]; */
+  @apply font-['Classy'] text-7xl xl:text-9xl font-extrabold leading-[60px] xl:leading-32;
+}
+.text-xltitle {
+  /* @apply font-['Poppins'] text-[36px] font-bold leading-[54px]; */
+  @apply font-['Classy'] text-5xl xl:text-8xl font-bold leading-14 xl:leading-28;
+}
+.text-title {
+  /* @apply font-['Poppins'] text-[36px] font-bold leading-[54px]; */
+  @apply font-['Classy'] text-4xl xl:text-4xl font-bold leading-10 xl:leading-12;
+}
+.text-subt {
+  /* @apply font-['Poppins'] text-[24px] font-medium leading-[36px]; */
+  @apply font-['DM_Sans'] text-2xl xl:text-2xl font-semibold leading-loose xl:leading-9;
+}
+.text-desc {
+  /* @apply font-['Poppins'] text-[14px] font-normal leading-[21px]; */
+  @apply font-['DM_Sans'] text-xl xl:text-xl font-normal leading-tight xl:leading-normal;
+}
+.text-btn {
+  /* @apply font-['Poppins'] text-[16px] font-semibold leading-[24px]; */
+  @apply font-['DM_Sans'] text-base xl:text-2xl font-semibold leading-normal xl:leading-8;
+}
+.text-footer {
+  @apply font-['DM_Sans'] text-xs font-normal leading-tight;
+}
+
+
+#menuOption {
+  @apply grid grid-cols-2 gap-5 xl:gap-10 text-center text-white;
+}
+
+#BarBlock {
+  @apply grid grid-rows-3 gap-5 xl:gap-10 text-center text-white;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src:
+       url('../fonts/Helvetica-Regular.ttf')   format('truetype'),   /* fallback */
+       url('../fonts/Helvetica-Regular.otf')   format('opentype');   /* fallback */
+}
+
+@font-face {
+  font-family: 'Classy';
+  src:
+       url('../fonts/Classyvogueregular.ttf')   format('truetype'),   /* fallback */
+       url('../fonts/Classyvogueregular.otf')   format('opentype');   /* fallback */
+}
+
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fade-slide-enter-from,
+.fade-slide-leave-to {
+  opacity: 0;
+  transform: translateY(20px);   /* scende/sale leggero */
+}
