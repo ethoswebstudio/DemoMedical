@@ -2,33 +2,23 @@
   <main>
     <!-- Sezione 1 – Hero/Landing -->
     <section
-      class="relative padding-px padding-py grid gap-10 lg:grid-cols-2 lg:items-center text-white"
-      :style="{
-        backgroundImage: `url(${t.heroImg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }"
+      class="padding-px padding-landing flex flex-col lg:flex-row items-center
+             bg-cover bg-center relative text-white"
+      :style="{ backgroundImage: `url(${t.heroImg})` }"
     >
-      <!-- overlay per migliorare il contrasto -->
-      <div class="absolute inset-0 bg-black/40 lg:bg-gradient-to-r from-black/60 via-black/30 to-transparent"></div>
-      <!-- contenuto -->
-      <div class="relative z-10 space-y-6 order-2 lg:order-1">
-        <h1 class="text-title">{{ t.title }}</h1>
+         <!-- overlay per migliorare il contrasto -->
+      <div class="absolute inset-0 bg-black/10 lg:bg-gradient-to-r from-black/40 via-black/10 to-transparent"></div>
+      <div class="relative z-10 space-y-6 max-w-xl">
+        <h1 class="text-megat">{{ t.title }}</h1>
         <p class="text-desc">{{ t.heroSubtitle }}</p>
-        
-        <div class="flex flex-col sm:flex-row gap-4">
-          <UButton to="/contatti" class="text-btn">Richiedi info</UButton>
-          <UButton variant="ghost" to="/contatti?app={{ t.slug }}" class="text-btn border">
-            Richiedi appuntamento
-          </UButton>
-        </div>
+        <UButton to="/prenota" class="w-auto xl:w-full text-btn self-start bg-blue-500 text-white hover:bg-blue-600 border-2 border-white rounded-3xl">
+          Prenota un appuntamento</UButton>
       </div>
-      <div class="order-1 lg:order-2"></div>
     </section>
 
     <!-- Sezione 2 – descrizione -->
     <section class="padding-px padding-py bg-blue-200">
-      <h2 class="text-title text-black mb-6">{{ t.introTitle ?? 'Approfondimento' }}</h2>
+      <h2 class="text-title text-black mb-6">{{ t.heroSubtitle ?? 'Approfondimento' }}</h2>
       <p class="text-desc text-black whitespace-pre-line">{{ t.intro }}</p>
     </section>
 
@@ -42,8 +32,8 @@
             class="w-full flex justify-between items-center py-4 text-left"
             @click="open = open === i ? -1 : i"
           >
-            <span class="font-medium">{{ f.q }}</span>
-            <Icon :name="open===i?'mdi:minus':'mdi:plus'" class="text-xl" />
+            <span class="text-subt">{{ f.q }}</span>
+            <Icon :name="open===i?'mdi:minus':'mdi:plus'" class="text-title" />
           </button>
             <p v-if="open === i" class="pb-4 text-desc whitespace-pre-line">
               {{ f.a }}
@@ -66,11 +56,14 @@
 </style>
 
 <script setup lang="ts">
-import data from '@/assets/data/treatments.json'   // o queryContent('treatments')
+import viso       from '@/assets/data/treatments/viso.json'
+import corpo      from '@/assets/data/treatments/corpo.json'
+import nutrizione from '@/assets/data/treatments/nutrizione.json'
+
+const all = [...viso, ...corpo, ...nutrizione]   // merge
 const { slug } = useRoute().params
-const t = data.find((el:any) => el.slug === slug)
+const t = all.find((el:any) => el.slug === slug)
 if (!t) { throw createError({ statusCode: 404 }) }
 
-// stato per FAQ (una aperta alla volta)
-const open = ref(0)
+const open = ref(0)      // faq accordion
 </script>

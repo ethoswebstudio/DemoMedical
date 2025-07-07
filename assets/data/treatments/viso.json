@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "filler-labbra",
+    "title": "Filler labbra",
+    "heroImg": "/img/TreatCarousel/filler.png",
+    "heroSubtitle": "Volume naturale e simmetria perfetta",
+    "intro": "Il filler labbra con acido ialuronico è il trattamento ideale per ridefinire il contorno, aumentare il volume e correggere piccole asimmetrie in modo naturale. Utilizziamo gel di ultima generazione, biocompatibili e riassorbibili, per un risultato morbido e armonioso che valorizza il sorriso senza stravolgere i lineamenti. La procedura è rapida, pressoché indolore grazie all’anestesia locale, e permette di tornare subito alle attività quotidiane.",
+    "faq": [
+      { "q": "Quanto dura l'effetto?",             "a": "In media 6-9 mesi, variabile in base al metabolismo personale e allo stile di vita." },
+      { "q": "Il trattamento è doloroso?",         "a": "Applichiamo una crema anestetica e utilizziamo filler con lidocaina integrata: il fastidio è minimo." },
+      { "q": "Cosa devo evitare dopo la seduta?",   "a": "Per 24 ore evita calore intenso (sauna, sole) e massaggi aggressivi sulla zona trattata." },
+      { "q": "Si vedono subito i risultati?",      "a": "Sì, ma il volume finale si stabilizza in 3-5 giorni quando l’edema iniziale si riassorbe." },
+      { "q": "Posso tornare a lavorare subito?",   "a": "Assolutamente sì: il filler labbra non richiede tempi di recupero." }
+    ]
+  },
+  {
+    "slug": "botox-rughe",
+    "title": "Botox rughe dinamiche",
+    "heroImg": "/img/TreatCarousel/botox.png",
+    "heroSubtitle": "Distende fronte e contorno occhi",
+    "intro": "La tossina botulinica di tipo A è la soluzione gold-standard per attenuare le rughe d’espressione di fronte, glabella e zampe di gallina. Agisce rilassando selettivamente i muscoli mimici e dona un aspetto levigato ma naturale: lo sguardo resta espressivo, senza il temuto “effetto maschera”. Utilizziamo micro-dosi personalizzate e tecniche di inoculo precise per garantire massima sicurezza e risultati prevedibili.",
+    "faq": [
+      { "q": "Quando si vedono i primi effetti?",   "a": "Generalmente dopo 3-4 giorni, con effetto completo in 10-14 giorni." },
+      { "q": "Quanto dura il risultato?",           "a": "Circa 4-6 mesi; un mantenimento semestrale assicura continuità." },
+      { "q": "Posso truccarmi subito?",             "a": "Sì, dopo 4 ore. Evita comunque sfregamenti vigorosi nelle prime 24 h." },
+      { "q": "È sicuro a lungo termine?",           "a": "La tossina botulinica estetica è autorizzata da oltre 20 anni con profilo di sicurezza eccellente." },
+      { "q": "Ci sono alternative al botox?",       "a": "Peeling, laser frazionato e filler possono migliorare la trama cutanea, ma non sostituiscono l’azione mirata del botox sulle rughe dinamiche." }
+    ]
+  },
+  {
+    "slug": "laser-co2-frazionato",
+    "title": "Laser CO₂ frazionato",
+    "heroImg": "/img/TreatCarousel/laser.png",
+    "heroSubtitle": "Rinnova cicatrici, macchie e texture",
+    "intro": "Il laser CO₂ frazionato crea micro-colonne termiche che stimolano un potente turnover cellulare e la neosintesi di collagene. È indicato per cicatrici da acne, pori dilatati, discromie e rughe superficiali. Il trattamento, eseguito con parametri personalizzati, genera un sottile “micro-peeling” e una rigenerazione profonda dei tessuti, con miglioramento progressivo nelle settimane successive.",
+    "faq": [
+      { "q": "Serve anestesia?",                     "a": "Applichiamo crema anestetica locale; il fastidio è ben tollerato." },
+      { "q": "Quanti giorni di recupero?",           "a": "Rossore e lieve gonfiore 2-3 giorni, poi desquamazione fine fino al 7° giorno." },
+      { "q": "Quante sedute occorrono?",             "a": "Da 1 a 3 sedute, distanziate di 4-6 settimane, a seconda dell’inestetismo." },
+      { "q": "Posso fare laser in estate?",          "a": "È preferibile il periodo autunno-inverno per minimizzare il rischio di iperpigmentazioni." },
+      { "q": "Risolve le cicatrici profonde?",       "a": "Le attenua sensibilmente; nei casi molto marcati valutiamo un approccio combinato con sub-cision e filler." }
+    ]
+  },
+  {
+    "slug": "peeling-chimico",
+    "title": "Peeling chimico medicale",
+    "heroImg": "/img/TreatCarousel/peeling.png",
+    "heroSubtitle": "Illumina e uniforma l'incarnato",
+    "intro": "Il peeling chimico medicale utilizza acidi selezionati (glicolico, salicilico, TCA) per esfoliare in modo controllato gli strati cutanei e stimolare la rigenerazione. Migliora grana, luminosità e imperfezioni come macchie post-infiammatorie o piccole rughe. Ogni protocollo viene personalizzato in concentrazione e tempo di posa, garantendo un’azione efficace ma sicura.",
+    "faq": [
+      { "q": "Il trattamento brucia?",                "a": "Si avverte lieve pizzicore; scompare al termine grazie a maschere lenitive." },
+      { "q": "Quante sedute servono?",                "a": "Ciclo di 3-4 sedute distanziate di 3 settimane per risultati ottimali." },
+      { "q": "Posso espormi al sole?",                "a": "Protezione 50+ obbligatoria per 4 settimane: la pelle è più fotosensibile." },
+      { "q": "È adatto alle pelli sensibili?",        "a": "Esistono formulazioni delicate (mandelico, lattico) adatte anche a cute reattiva." },
+      { "q": "Che differenza c’è con un peeling estetico?", "a": "I peeling medicali hanno concentrazioni e pH regolati da un medico, quindi agiscono in profondità e con maggior efficacia." }
+    ]
+  },
+  {
+    "slug": "epilazione-laser-definitiva",
+    "title": "Epilazione laser definitiva",
+    "heroImg": "/img/TreatCarousel/epilazione.png",
+    "heroSubtitle": "Pelle liscia, stop ai peli superflui",
+    "intro": "Con la tecnologia laser diodo ad alta potenza eliminiamo in modo progressivo e permanente i peli superflui su viso e corpo. Il fascio luminoso colpisce selettivamente la melanina del bulbo, inattivandolo senza danneggiare la cute circostante. È una procedura rapida, sicura e adatta a ogni fototipo: basta radersi 24 h prima e seguire un ciclo di 6-8 sedute per un risultato duraturo.",
+    "faq": [
+      { "q": "Il laser è doloroso?",                   "a": "Il sistema di raffreddamento integrato rende la seduta ben tollerata; si avverte solo un leggero calore." },
+      { "q": "Quante sedute sono necessarie?",         "a": "In media 6-8 sedute distanziate di 4-6 settimane, più 1-2 richiamo annuale." },
+      { "q": "Funziona anche su peli chiari?",         "a": "L’efficacia è massima su peli scuri; su peli biondi o rossi i risultati sono più limitati." },
+      { "q": "Posso prendere il sole durante il ciclo?", "a": "È consigliato aspettare 7-10 giorni prima e dopo la seduta per evitare iperpigmentazioni." },
+      { "q": "Ci sono effetti collaterali?",           "a": "Solo un lieve arrossamento temporaneo, che scompare in poche ore." }
+    ]
+  }
+]

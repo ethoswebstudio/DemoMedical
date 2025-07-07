@@ -5,7 +5,7 @@
     :autoplay-interval="3000"
     class="max-w-6xl mx-auto"
     :ui="{
-      item: 'mx-3 xl:mx-14 first:mx-0 first:mr-5 first:xl:mr-14 basis-[70%] md:basis-[35%] transition-opacity item-center',
+      item: 'x-3 basis-[70%] md:basis-[30%] item-center',
     }"
   >
     <template #default="{ item }">
@@ -51,15 +51,26 @@
 </template>
 
 <script setup lang="ts">
-import all from '@/assets/data/treatments.json'
+interface Raw  { slug:string; title?:string; cardTitle?:string;
+                heroImg?:string; cardImg?:string; cardBtn?:string }
+interface Card { title:string; img:string; link:string; btn:string }
 
-interface Card { title:string; img:string; link:string }
-//  accetta (opzionale) un array filtrato da fuori
-const props = defineProps<{ items?: Card[] }>()
+/* 1. importa tutti i JSON e uniscili */
+import viso       from '@/assets/data/treatments/viso.json'
+import corpo      from '@/assets/data/treatments/corpo.json'
+import nutrizione from '@/assets/data/treatments/nutrizione.json'
 
-const cards:Card[] = props.items ?? all.map(t => ({
-  title: t.cardTitle ?? t.title,
-  img:   t.cardImg   ?? t.heroImg,
-  link:  `/treatments/${t.slug}`
+const all: Raw[] = [...viso, ...corpo, ...nutrizione]
+
+/* 2. se il genitore passa `items`, usiamo quelli; altrimenti usiamo `all` */
+const props = defineProps<{ items?: Raw[] }>()
+const source = props.items ?? all   // fallback
+
+/* 3. normalizza verso il formato Card */
+const cards: Card[] = source.map(t => ({
+  title: t.cardTitle ?? t.title ?? 'Trattamento',
+  img:   t.cardImg   ?? t.heroImg ?? '/img/placeholder.jpg',
+  link:  `/treatments/${t.slug}`,
+  btn:   t.cardBtn   ?? 'Scopri di più'
 }))
 </script>

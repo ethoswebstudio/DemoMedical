@@ -41,7 +41,7 @@ import { container } from '#build/ui';
     <!-- =============================================================== -->
     <!-- Aree di trattamento                                             -->
     <!-- =============================================================== -->
-    <section id="AreeTrattamento" class="padding-px padding-py bg-white">
+    <section id="servizi" class="padding-px padding-py bg-white">
       <h2 class="text-title mb-5 text-gray-700">Aree di trattamento</h2>
       <ServiceCarousel />
     </section>
@@ -57,7 +57,7 @@ import { container } from '#build/ui';
           Trattamenti personalizzati, tecnologie avanzate e un approccio naturale per aiutarti a ritrovare equilibrio e
           benessere.
         </p>
-        <img src="public/img/TreatCarousel/botox.png" alt="Chi siamo" class="xl:h-92 xl:w-full rounded-xl shadow-xl">
+        <img src="public/img/studio.png" alt="Chi siamo" class="xl:h-92 xl:w-full rounded-xl shadow-xl">
       </div>
 
       <div class="xl:flex">
@@ -84,7 +84,7 @@ import { container } from '#build/ui';
         </div>
 
         <div class="flex-1 relative">
-          <NuxtImg src="/img/TreatCarousel/botox.png" alt="Chi siamo" class="
+          <NuxtImg src="/img/padova.jpg" alt="Chi siamo" class="
             w-full object-cover
             h-64 sm:h-80
             xl:absolute xl:inset-0 xl:h-full"/>

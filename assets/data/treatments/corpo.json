@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "filler-labbra",
+    "title": "Filler labbra",
+    "heroImg": "/img/treatments/filler.png",
+    "heroSubtitle": "Volume naturale",
+    "intro": "…",
+    "faq": [ { "q": "Quanto dura?", "a": "…" } ]
+  },
+  {
+    "slug": "botox",
+    "title": "Botox rughe",
+    "heroImg": "/img/treatments/botox.png",
+    "heroSubtitle": "Riduce le rughe d’espressione",
+    "intro": "…"
+  }
+]

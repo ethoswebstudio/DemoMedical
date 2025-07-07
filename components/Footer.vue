@@ -1,6 +1,6 @@
 <template>
  <footer class="bg-neutral-900 text-gray-200">
-    <div class="max-w-7xl mx-auto section-px py-12 grid gap-10 md:grid-cols-3">
+    <div class="max-w-7xl mx-auto padding-px padding-py grid gap-10 md:grid-cols-3">
       <div>
         <h3 class="font-bold text-xl mb-4 text-white">Contatti</h3>
         <p>Tel: 049&nbsp;1234567</p>
