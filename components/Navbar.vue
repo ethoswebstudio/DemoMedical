@@ -3,7 +3,7 @@
     <nav
       class="w-full bg-white px-3 py-3
              flex items-center justify-between
-             xl:grid xl:grid-cols-3 xl:items-center
+             md:grid md:grid-cols-3 md:items-center
              border-b border-gray-200"
     >
       <!-- BRAND ------------------------------------------------------ -->
@@ -13,9 +13,9 @@
 
       <!-- MENU CENTRALE (desktop) ------------------------------------ -->
       <ul
-        class="hidden xl:flex justify-center gap-12 text-desc text-gray-700"
+        class="hidden md:flex justify-center gap-12 text-desc text-gray-700"
       >
-        <li><NuxtLink to="/chi-siamo"   class="hover:text-blue-500">Chi&nbsp;Siamo</NuxtLink></li>
+        <li><NuxtLink to="/team"   class="hover:text-blue-500">Chi&nbsp;Siamo</NuxtLink></li>
 
         <!-- ▼▼▼  DROPDOWN  ▼▼▼ -->
         <li class="relative group">
@@ -50,16 +50,16 @@
         </li>
         <!-- ▲▲▲  /DROPDOWN  ▲▲▲ -->
 
-        <li><NuxtLink to="/servizi"     class="hover:text-blue-700">Servizi</NuxtLink></li>
+        <li><NuxtLink :to="{ path: '/', hash: '#servizi' }"     class="hover:text-blue-700">Servizi</NuxtLink></li>
         <li><NuxtLink to="/contatti"    class="hover:text-blue-700">Contatti</NuxtLink></li>
       </ul>
 
       <!-- CTA desktop ------------------------------------------------ -->
       <UButton
-        to="/prenota"
+        to="/contatti"
         size="lg"
         rounded="full"
-        class="hidden xl:inline-flex bg-blue-500 hover:bg-blue-700 text-white justify-self-end"
+        class="hidden md:inline-flex bg-blue-500 hover:bg-blue-700 text-white justify-self-end"
       >
         Appuntamento
       </UButton>
@@ -67,7 +67,7 @@
       <!-- BURGER mobile --------------------------------------------- -->
       <button
         @click="menuOpen = true"
-        class="xl:hidden text-3xl text-blue-700"
+        class="md:hidden text-3xl text-blue-700"
         aria-label="Apri menu"
       >
         <Icon name="mdi:menu" />
@@ -88,6 +88,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useRoute } from 'vue-router'
 
 /* ---------------- dati ------------------ */
 import categories from '@/assets/data/services.json'
@@ -101,4 +102,21 @@ const byCat: Record<string, any[]> = {
 }
 
 const menuOpen = ref(false)
+
+onMounted(async () => {
+  const route = useRoute();
+
+  // Se c'è un hash (#div)
+  if (route.hash) {
+    await nextTick(); // aspetta che tutto il DOM venga montato
+
+    // Optional: ulteriore attesa se carichi dati
+    setTimeout(() => {
+      const el = document.querySelector(route.hash);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 500); // tempo necessario a far apparire i dati
+  }
+})
 </script>

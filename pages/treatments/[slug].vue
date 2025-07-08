@@ -11,7 +11,7 @@
       <div class="relative z-10 space-y-6 max-w-xl">
         <h1 class="text-megat">{{ t.title }}</h1>
         <p class="text-desc">{{ t.heroSubtitle }}</p>
-        <UButton to="/prenota" class="w-auto xl:w-full text-btn self-start bg-blue-500 text-white hover:bg-blue-600 border-2 border-white rounded-3xl">
+        <UButton to="/prenota" class="w-auto md:w-full text-btn self-start bg-blue-500 text-white hover:bg-blue-600 border-2 border-white rounded-3xl">
           Prenota un appuntamento</UButton>
       </div>
     </section>

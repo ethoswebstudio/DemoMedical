@@ -2,7 +2,7 @@
   {
     "slug": "filler-labbra",
     "title": "Filler labbra",
-    "heroImg": "/img/TreatCarousel/filler.png",
+    "heroImg": "/img/public/img/treatments-viso/filler.png",
     "heroSubtitle": "Volume naturale e simmetria perfetta",
     "intro": "Il filler labbra con acido ialuronico è il trattamento ideale per ridefinire il contorno, aumentare il volume e correggere piccole asimmetrie in modo naturale. Utilizziamo gel di ultima generazione, biocompatibili e riassorbibili, per un risultato morbido e armonioso che valorizza il sorriso senza stravolgere i lineamenti. La procedura è rapida, pressoché indolore grazie all’anestesia locale, e permette di tornare subito alle attività quotidiane.",
     "faq": [
@@ -16,7 +16,7 @@
   {
     "slug": "botox-rughe",
     "title": "Botox rughe dinamiche",
-    "heroImg": "/img/TreatCarousel/botox.png",
+    "heroImg": "/img/treatments-viso/botox.png",
     "heroSubtitle": "Distende fronte e contorno occhi",
     "intro": "La tossina botulinica di tipo A è la soluzione gold-standard per attenuare le rughe d’espressione di fronte, glabella e zampe di gallina. Agisce rilassando selettivamente i muscoli mimici e dona un aspetto levigato ma naturale: lo sguardo resta espressivo, senza il temuto “effetto maschera”. Utilizziamo micro-dosi personalizzate e tecniche di inoculo precise per garantire massima sicurezza e risultati prevedibili.",
     "faq": [
@@ -30,7 +30,7 @@
   {
     "slug": "laser-co2-frazionato",
     "title": "Laser CO₂ frazionato",
-    "heroImg": "/img/TreatCarousel/laser.png",
+    "heroImg": "/img/treatments-viso/laser.png",
     "heroSubtitle": "Rinnova cicatrici, macchie e texture",
     "intro": "Il laser CO₂ frazionato crea micro-colonne termiche che stimolano un potente turnover cellulare e la neosintesi di collagene. È indicato per cicatrici da acne, pori dilatati, discromie e rughe superficiali. Il trattamento, eseguito con parametri personalizzati, genera un sottile “micro-peeling” e una rigenerazione profonda dei tessuti, con miglioramento progressivo nelle settimane successive.",
     "faq": [
@@ -44,7 +44,7 @@
   {
     "slug": "peeling-chimico",
     "title": "Peeling chimico medicale",
-    "heroImg": "/img/TreatCarousel/peeling.png",
+    "heroImg": "/img/treatments-viso/peeling.png",
     "heroSubtitle": "Illumina e uniforma l'incarnato",
     "intro": "Il peeling chimico medicale utilizza acidi selezionati (glicolico, salicilico, TCA) per esfoliare in modo controllato gli strati cutanei e stimolare la rigenerazione. Migliora grana, luminosità e imperfezioni come macchie post-infiammatorie o piccole rughe. Ogni protocollo viene personalizzato in concentrazione e tempo di posa, garantendo un’azione efficace ma sicura.",
     "faq": [
@@ -58,7 +58,7 @@
   {
     "slug": "epilazione-laser-definitiva",
     "title": "Epilazione laser definitiva",
-    "heroImg": "/img/TreatCarousel/epilazione.png",
+    "heroImg": "/img/treatments-viso/epilazione.png",
     "heroSubtitle": "Pelle liscia, stop ai peli superflui",
     "intro": "Con la tecnologia laser diodo ad alta potenza eliminiamo in modo progressivo e permanente i peli superflui su viso e corpo. Il fascio luminoso colpisce selettivamente la melanina del bulbo, inattivandolo senza danneggiare la cute circostante. È una procedura rapida, sicura e adatta a ogni fototipo: basta radersi 24 h prima e seguire un ciclo di 6-8 sedute per un risultato duraturo.",
     "faq": [

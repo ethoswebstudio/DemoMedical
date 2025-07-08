@@ -1,9 +1,7 @@
 <template>
   <UApp>
     <Navbar /> 
-        <Transition name="zoom-fade" mode="out-in">         
     <NuxtPage />   
-        </Transition>
     <Footer />
   </UApp>
 </template>

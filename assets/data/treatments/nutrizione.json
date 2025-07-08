@@ -1,17 +1,72 @@
 [
   {
-    "slug": "filler-labbra",
-    "title": "Filler labbra",
-    "heroImg": "/img/treatments/filler.png",
-    "heroSubtitle": "Volume naturale",
-    "intro": "…",
-    "faq": [ { "q": "Quanto dura?", "a": "…" } ]
+    "slug": "piano-alimentare-personalizzato",
+    "title": "Piano alimentare personalizzato",
+    "heroImg": "/img/treatments-nutrizione/piano-personalizzato.png",
+    "heroSubtitle": "La dieta cucita su di te",
+    "intro": "Dopo un’accurata anamnesi nutrizionale, il nostro dietista elabora un **protocollo alimentare su misura** che rispetta gusti, ritmi di vita e obiettivi (dimagrimento, performance sportiva, benessere metabolico). Il piano ruota su macronutrienti bilanciati, ricette facili e consigli di cooking smart per garantire aderenza e risultati duraturi.",
+    "faq": [
+      { "q": "Ogni quanto si aggiorna il piano?", "a": "Controllo e rimodulazione ogni 3-4 settimane in base ai progressi." },
+      { "q": "Prevede integratori?", "a": "Solo se emergono carenze o necessità specifiche analizzate dal medico." },
+      { "q": "È adatto ai vegetariani?", "a": "Certo, possiamo redigere versioni vegetariane, vegane o senza glutine." },
+      { "q": "Serve ricette particolari?", "a": "No: ingredienti reperibili al supermercato e cotture rapide." },
+      { "q": "Posso fare sgarri?", "a": "Il piano include flessibilità: sono previsti pasti liberi e strategie di compenso." }
+    ]
   },
   {
-    "slug": "botox",
-    "title": "Botox rughe",
-    "heroImg": "/img/treatments/botox.png",
-    "heroSubtitle": "Riduce le rughe d’espressione",
-    "intro": "…"
+    "slug": "bioimpedenziometria",
+    "title": "Analisi bioimpedenziometrica",
+    "heroImg": "/img/treatments-nutrizione/bia.png",
+    "heroSubtitle": "Misura massa magra, grasso e idratazione",
+    "intro": "La bioimpedenziometria a 4 elettrodi valuta **composizione corporea e stato di idratazione**: massa magra, grasso viscerale, acqua intra/extracellulare. È lo strumento di monitoraggio più preciso per calibrare dieta, integrazione e allenamento.",
+    "faq": [
+      { "q": "Richiede digiuno?", "a": "Sì, 3 h senza cibo né bevande e vescica vuota." },
+      { "q": "Quanto dura?", "a": "5 minuti per il test, 10-15 per commentare i dati con il nutrizionista." },
+      { "q": "È sicura in gravidanza?", "a": "No, è controindicata. Usiamo altre misurazioni in quel caso." },
+      { "q": "Ogni quanto ripeterla?", "a": "Mensilmente nelle fasi di dimagrimento intensivo, poi a cadenza trimestrale." },
+      { "q": "È dolorosa?", "a": "Assolutamente no: è un lieve impulso elettrico impercettibile." }
+    ]
+  },
+  {
+    "slug": "educazione-alimentare",
+    "title": "Percorso di educazione alimentare",
+    "heroImg": "/img/treatments-nutrizione/educazione.png",
+    "heroSubtitle": "Impara a mangiare in modo consapevole",
+    "intro": "Un ciclo di coaching nutrizionale che combina **lezioni teoriche e spunti pratici**: lettura etichette, gestione spesa, bilanciamento piatto, mindful eating. Obiettivo: renderti autonomo nelle scelte e prevenire il famoso effetto yo-yo.",
+    "faq": [
+      { "q": "Quanti incontri sono previsti?", "a": "6 incontri (1 h) a cadenza settimanale, in studio o online." },
+      { "q": "C’è materiale didattico?", "a": "Sì, ebook PDF con schede, liste spesa e ricette light." },
+      { "q": "Posso farlo in gruppo?", "a": "Organizziamo mini-classi (max 6 persone) per maggiore motivazione." },
+      { "q": "È adatto ai bambini?", "a": "Abbiamo un format dedicato 8-12 anni con linguaggio ludico-educativo." },
+      { "q": "Ottengo attestato?", "a": "Al termine ricevi un report personalizzato e checklist di mantenimento." }
+    ]
+  },
+  {
+    "slug": "nutraceutica-mirata",
+    "title": "Integrazione nutraceutica mirata",
+    "heroImg": "/img/treatments-nutrizione/nutraceutica.png",
+    "heroSubtitle": "Supporta metabolismo e benessere intestinale",
+    "intro": "Test ematici e anamnesi guidano la scelta di **nutraceutici di qualità farmaceutica**: probiotici, omega-3, fitocomplessi termogenici o antiossidanti. Il protocollo integra il piano alimentare per colmare carenze e ottimizzare energia e digestione.",
+    "faq": [
+      { "q": "Sono prodotti da banco?", "a": "Solo integratori notificati al Ministero e supportati da evidenze cliniche." },
+      { "q": "Durata della terapia?", "a": "Cicli di 2-3 mesi con rivalutazione marker di laboratorio." },
+      { "q": "Interazioni farmacologiche?", "a": "Il medico valuta eventuali interazioni con terapie in atto." },
+      { "q": "Sono vegan-friendly?", "a": "Disponiamo di formulazioni vegane e senza lattosio." },
+      { "q": "Posso comprarli altrove?", "a": "Puoi, ma garantiamo solo marchi certificati con tracciabilità lotti." }
+    ]
+  },
+  {
+    "slug": "coaching-alimentare-sportivo",
+    "title": "Coaching alimentare sportivo",
+    "heroImg": "/img/treatments-nutrizione/coaching-sportivo.png",
+    "heroSubtitle": "Performance e recupero ottimizzati",
+    "intro": "Per atleti amatoriali e professionisti: strategia nutrizionale pre-, intra- e post-workout con focus su **ripristino glicogeno, modulazione proteica e idratazione ottimale**. Include integrazione personalizzata (BCAA, elettroliti, creatina) e periodizzazione carbo.",
+    "faq": [
+      { "q": "È valido per tutti gli sport?", "a": "Si adatta a endurance, forza o sport di squadra." },
+      { "q": "Prevede meal-prep?", "a": "Forniamo calendar nutrizionale e ricette rapide \"fuel-up\"." },
+      { "q": "Posso usarlo in fase di massa?", "a": "Sì: modifichiamo surplus calorico e timing proteico." },
+      { "q": "Analisi lattato incluse?", "a": "Su richiesta eseguiamo test lattato e VO₂ max con partner certificato." },
+      { "q": "Viene monitorato il peso?", "a": "Check bi-settimanale con bioimpedenziometria per adattare il piano." }
+    ]
   }
 ]

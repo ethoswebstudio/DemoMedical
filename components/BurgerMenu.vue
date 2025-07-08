@@ -64,7 +64,7 @@
           </li>
           <!-- ------------------------------------------------------- -->
 
-          <li><NuxtLink to="/servizi"  @click="$emit('close')">Servizi</NuxtLink></li>
+          <li><NuxtLink to="/#servizi"  @click="$emit('close')">Servizi</NuxtLink></li>
           <li><NuxtLink to="/contatti" @click="$emit('close')">Contatti</NuxtLink></li>
         </ul>
 

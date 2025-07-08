@@ -1,9 +1,10 @@
 <template>
   <UCarousel
     :items="services"
-    class="max-w-6xl mx-auto"
+    class="max-w-6xl mx-auto "
     :ui="{
-      item: 'mx-3 basis-[70%] md:basis-[30%] item-center',
+      item: 'mx-3 basis-[70%] md:basis-[30%] items-center',
+      container: ' justify-between',
     }"
   >
     <template #default="{ item }">
@@ -49,5 +50,6 @@
 </template>
 
 <script setup lang="ts">
+import type { container } from '#build/ui';
 import services from '@/assets/data/services.json'
 </script>
