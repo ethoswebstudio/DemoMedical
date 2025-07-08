@@ -57,7 +57,7 @@
           <NuxtImg
             :src="doc.photo"
             :alt="doc.name"
-            class="h-64 w-full object-cover"
+            class="h-64 w-full object-cover object-top"
           />
           <!-- testo -->
           <div class="flex-1 p-6 space-y-2">
@@ -115,7 +115,7 @@ const doctors: Doctor[] = [
     name:  'Dott. Luca Rossi',
     short: 'Rossi',
     role:  'Medico estetico',
-    photo: '/img/team/rossi.jpg',
+    photo: '/img/team/dottore2.png',
     bio:   'Specializzato in filler e biorivitalizzazione, ama un risultato discreto e naturale.',
   },
   {
@@ -123,7 +123,7 @@ const doctors: Doctor[] = [
     name:  'Dott.ssa Sara Bianchi',
     short: 'Bianchi',
     role:  'Dermatologa',
-    photo: '/img/team/bianchi.jpg',
+    photo: '/img/team/dottore1.png',
     bio:   'Dermatologa certificata con focus su laser CO₂ e trattamenti acne-scar.',
   },
   {
@@ -131,7 +131,7 @@ const doctors: Doctor[] = [
     name:  'Dott. Marco Verdi',
     short: 'Verdi',
     role:  'Chirurgo plastico',
-    photo: '/img/team/verdi.jpg',
+    photo: '/img/team/dottore3.png',
     bio:   'Esperto in chir. mininvasiva; predilige tecniche soft-lifting e armonizzazione del profilo.',
   },
   // aggiungi altri profili se vuoi…

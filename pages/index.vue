@@ -49,8 +49,8 @@ import { container } from '#build/ui';
     <!-- =============================================================== -->
     <!-- Chi siamo                                                       -->
     <!-- =============================================================== -->
-    <section id="chi-siamo" class="text-gray-700 bg-blue-100 scroll-mt-24 padding-py">
-      <div class="padding-px">
+    <section id="chi-siamo" class="text-gray-700 bg-blue-100 scroll-mt-24">
+      <div class="padding-px padding-py">
         <h2 class="text-title mb-6">DemoMedical – Bellezza in Equilibrio</h2>
         <p class="text-desc mb-8">
           Nel cuore di Padova, DemoMedical è il tuo spazio dedicato alla medicina estetica.
