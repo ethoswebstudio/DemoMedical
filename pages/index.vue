@@ -26,7 +26,7 @@ import { container } from '#build/ui';
         </UButton>
 
         <UButton
-          url="/contatti"
+          to="/contatti"
           size="xl"
           class="mt-4 w-auto md:w-full text-center self-start bg-white hover:bg-blue-600 border-2 border-blue-500 rounded-3xl"
         >
@@ -57,7 +57,7 @@ import { container } from '#build/ui';
           Trattamenti personalizzati, tecnologie avanzate e un approccio naturale per aiutarti a ritrovare equilibrio e
           benessere.
         </p>
-        <img src="public/img/studio.png" alt="Chi siamo" class="md:h-92 md:w-full rounded-xl shadow-xl">
+        <img src="public/img/studio.png" alt="Chi siamo" class="md:h-92 md:w-full rounded-xl shadow-xl object-cover object-bottom">
       </div>
 
       <div id="chisiamo" class="md:flex">
@@ -77,9 +77,13 @@ import { container } from '#build/ui';
               pronti a guidarti nella scelta dei trattamenti più adatti alle tue esigenze.
             </p>
 
-            <UButton to="/team" size="xl" rounded="md" class="w-full bg-blue-500 text-white hover:bg-blue-600 text-btn">
-              Il nostro team
-            </UButton>
+        <UButton
+          to="/team"
+          size="xl"
+          class="w-auto md:w-full bg-blue-500 text-white hover:bg-blue-600 border-2 border-white rounded-3xl"
+        >
+          Scopri il team
+        </UButton>
           </div>
         </div>
 

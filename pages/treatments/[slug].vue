@@ -7,11 +7,11 @@
       :style="{ backgroundImage: `url(${t.heroImg})` }"
     >
          <!-- overlay per migliorare il contrasto -->
-      <div class="absolute inset-0 bg-black/10 lg:bg-gradient-to-r from-black/40 via-black/10 to-transparent"></div>
+      <div class="absolute inset-0 bg-black/10 bg-gradient-to-r from-black/40 via-black/10 to-transparent"></div>
       <div class="relative z-10 space-y-6 max-w-xl">
         <h1 class="text-megat">{{ t.title }}</h1>
         <p class="text-desc">{{ t.heroSubtitle }}</p>
-        <UButton to="/prenota" class="w-auto md:w-full text-btn self-start bg-blue-500 text-white hover:bg-blue-600 border-2 border-white rounded-3xl">
+        <UButton to="/contatti" class="w-auto md:w-full text-btn self-start bg-blue-500 text-white hover:bg-blue-600 border-2 border-white rounded-3xl">
           Prenota un appuntamento</UButton>
       </div>
     </section>

@@ -1,7 +1,7 @@
 <template>
   <main class="padding-px padding-py bg-white text-gray-800">
     <!-- Heading -->
-    <header class="text-center mb-16">
+    <header class="text-center padding-py padding-px">
       <h1 class="text-title">Contatti</h1>
       <p class="text-desc max-w-2xl mx-auto">
         Il piacere di saperne di più senza obblighi né impegni
@@ -15,7 +15,7 @@
     >
       <!-- ▸ FORM ---------------------------------------------------- -->
       <form class="flex flex-col gap-6" @submit.prevent>
-        <h2 class="text-lg font-semibold text-gray-700">
+        <h2 class="text-subt text-gray-700">
           Compila il form per richiedere informazioni o prenotare un appuntamento!
         </h2>
 

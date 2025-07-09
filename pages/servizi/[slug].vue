@@ -24,11 +24,11 @@ useSeoMeta({ title: s.title })
              bg-cover bg-center relative text-white"
       :style="{ backgroundImage: `url(${s.heroImg})` }"
     >
-      <div class="absolute inset-0 bg-black/10 lg:bg-gradient-to-r from-black/40 via-black/10 to-transparent"></div>
+      <div class="absolute inset-0 bg-black/10 bg-gradient-to-r from-black/40 via-black/10 to-transparent"></div>
       <div class="relative z-10 space-y-6 max-w-xl">
         <h1 class="text-megat">{{ s.title }}</h1>
         <p class="text-desc">{{ s.heroSubtitle }}</p>
-        <UButton to="/prenota" class="w-auto xl:w-full text-btn self-start bg-blue-500 text-white hover:bg-blue-600 border-2 border-white rounded-3xl">
+        <UButton to="/contatti" class="w-auto xl:w-full text-btn self-start bg-blue-500 text-white hover:bg-blue-600 border-2 border-white rounded-3xl">
           Prenota un appuntamento</UButton>
       </div>
     </section>

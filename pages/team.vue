@@ -72,7 +72,7 @@
             </p>
                       <!-- CTA dottore (facoltativa) -->
           <UButton
-            to="/prenota"
+            to="/contatti"
             size="md"
             rounded="none"
             class="bg-blue-500 hover:bg-blue-600 text-white w-full"
